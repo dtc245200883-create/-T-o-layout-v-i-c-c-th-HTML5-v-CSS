@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thực hành Layout HTML5 & CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Khung chứa toàn bộ trang -->
+    <div id="main">
+
+        <!-- 1. Đầu trang: Logo / Banner -->
+        <header>
+            <h1>LOGO & BANNER</h1>
+        </header>
+
+        <!-- 2. Thanh điều hướng Menu -->
+        <nav>
+            <a href="#">Trang chủ</a>
+            <a href="#">Học viên</a>
+            <a href="#">Khóa học</a>
+            <a href="#">Giới thiệu</a>
+            <a href="#">Liên hệ</a>
+        </nav>
+
+        <!-- 3. Cột phụ bên trái -->
+        <aside class="left-sidebar">
+            <h3>Danh mục</h3>
+            <ul>
+                <li><a href="#">Khóa học Front-end</a></li>
+                <li><a href="#">Khóa học Back-end</a></li>
+                <li><a href="#">Lập trình Mobile</a></li>
+            </ul>
+        </aside>
+
+        <!-- 4. Khu vực nội dung chính -->
+        <section class="content">
+            <article>
+                <h2>Tin tức nổi bật</h2>
+                <p>Nội dung tóm tắt tin tức hot trong ngày...</p>
+            </article>
+
+            <div class="slider">
+                Photo Slide Show
+            </div>
+
+            <article>
+                <h2>Bài viết mới 1</h2>
+                <p>Chi tiết bài viết tin tức 1 về công nghệ và lập trình web...</p>
+            </article>
+        </section>
+
+        <!-- 5. Cột phụ bên phải -->
+        <aside class="right-sidebar">
+            <h3>Thông tin thêm</h3>
+            <p><strong>Lịch học:</strong> Thứ 2 - 4 - 6</p>
+            <p><strong>Biểu đồ:</strong> 85% Đạt yêu cầu</p>
+            <p><strong>Bản đồ:</strong> Hà Nội, Việt Nam</p>
+        </aside>
+
+        <!-- 6. Chân trang -->
+        <footer>
+            <p>&copy; 2026 Bản quyền thuộc về Web Admin | <a href="#">Điều khoản</a> | <a href="#">Bảo mật</a></p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
